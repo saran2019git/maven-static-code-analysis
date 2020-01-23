@@ -17,7 +17,14 @@
         <spotbugs.version>3.1.8</spotbugs.version>
         <pmd.version>3.11.0</pmd.version>
     </properties>
-
+         <dependencies>
+                  <dependency>
+                           <groupId>org.junit.jupiter</groupId>
+                           <artifactId>junit-jupiter-engine</artifactId>
+                           <version>5.5.2</version>
+                           <scope>test</scope>
+                  </dependency>
+         </dependencies>
     <reporting>
         <plugins>
             <!-- https://spotbugs.github.io/ -->
