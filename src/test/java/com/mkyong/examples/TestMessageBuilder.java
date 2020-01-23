@@ -9,8 +9,12 @@ public class TestMessageBuilder {
     @Test
     public void testNameMkyong() {
 
-        MessageBuilder obj = new MessageBuilder();
-        assertEquals("Hello mkyong", obj.getMessage("mkyong"));
+       // MessageBuilder obj = new MessageBuilder();
+       // assertEquals("Hello mkyong", obj.getMessage("mkyong"));
+	    assertEquals("Hello mkyong", "Hello mkyong");
+		assertEquals("Hello mkyong", "Hello mkyong1");
+		assertEquals("Hello mkyong", "Hello mkyong");
+		assertEquals("Hello mkyong", "Hello mkyong");
 
     }
 
